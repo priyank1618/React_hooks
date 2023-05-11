@@ -1,11 +1,13 @@
 import React from "react";
 import Usestate from "./hooks/Usestate";
+import Usestate1 from "./hooks/Usestate1";
 import "./App.css"
 
 function App() {
   return (
    <div>
     < Usestate />
+    < Usestate1 />
    </div>
       
   );
