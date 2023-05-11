@@ -4,6 +4,9 @@ import Usestate1 from "./hooks/Usestate1";
 import "./App.css"
 import Usereducer from "./hooks/Usereducer";
 import Usereducer1 from "./hooks/Usereducer1";
+import Useeffect from "./hooks/Useeffect";
+import Useref from "./hooks/Useref";
+import Useref1 from "./hooks/Useref1";
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
     < Usestate1 />
     <Usereducer />
     <Usereducer1 />
+    <Useeffect />
+    <Useref />
+    <Useref1 />
    </div>
       
   );
